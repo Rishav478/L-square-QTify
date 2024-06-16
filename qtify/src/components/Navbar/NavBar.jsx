@@ -1,12 +1,13 @@
 import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
 import Search from "../Search/Search";
-import "./navbar.css"
+import styles from "./navbar.module.css"
+
 
 
 export default function NavBar() {
     return(
-        <nav className="navbar">
+        <nav className={styles.navbar}>
             <Logo/>
             <Search/>
             <Button/>

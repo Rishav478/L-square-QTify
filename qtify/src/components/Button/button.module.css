@@ -1,0 +1,8 @@
+.feedback{
+    background-color: var(--body-background-color);
+    color: var(--primary-background-color);
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}

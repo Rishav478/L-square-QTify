@@ -1,3 +1,11 @@
+:root {
+  --primary-background-color: #34C94B;
+  --body-background-color: #121212;
+  --text-background-color: #ffffff;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;

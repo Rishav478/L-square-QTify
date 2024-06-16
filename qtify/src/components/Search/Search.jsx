@@ -1,11 +1,11 @@
 import SearchButton from "../../assets/search-icon.svg"
-import "./search.css"
+import styles from"./search.module.css"
 export default function Search(){
     return(
-        <div className="search-container">
+        <div className={styles.searchContainer}>
             <form action="">
-                <input type="text" className="search-input" placeholder="Search a album of your choice "/>
-                <button className="search-button">
+                <input type="text" className={styles.searchInput} placeholder="Search a album of your choice "/>
+                <button className={styles.searchButton}>
                     <img src={SearchButton} alt="Search" />
                 </button>
             </form>

@@ -1,24 +1,22 @@
-.search-container {
+.searchContainer {
     display: flex;
     align-items: center;
     border-radius: 10px;
   }
   
-  .search-input {
+  .searchInput {
     height: 2rem;
     width: 20rem;
     padding: 0.5rem;
   }
   
-  .search-button {
-    /* background: none;
-    border: none; */
+  .searchButton {
     padding: 5px;
     width: 40px ;
     cursor: pointer;
     height: 2rem;
   }
   
-  .search-button img {
+  .searchButton img {
     height: 60%;
   }
