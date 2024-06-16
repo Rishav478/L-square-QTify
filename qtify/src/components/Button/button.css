@@ -1,0 +1,8 @@
+.feed-back{
+    background-color: black;
+    color: #34C94B;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
