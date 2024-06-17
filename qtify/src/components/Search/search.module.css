@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
+    
   }
   
   .searchInput {
@@ -12,11 +13,13 @@
   
   .searchButton {
     padding: 5px;
-    width: 40px ;
+    width: 50px ;
     cursor: pointer;
     height: 2rem;
   }
   
   .searchButton img {
     height: 60%;
+    margin-left: auto;
+    margin-right: auto;
   }
