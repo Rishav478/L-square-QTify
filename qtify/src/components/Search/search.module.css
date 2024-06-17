@@ -1,25 +1,27 @@
 .searchContainer {
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    height: 48px;
     
   }
   
   .searchInput {
-    height: 2rem;
-    width: 20rem;
-    padding: 0.5rem;
+    width: 502px;
+    height: 100% ;
+    border-radius: 8px;
+    border: 1px solid var(--body-background-color);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 14px 20px;
   }
   
   .searchButton {
-    padding: 5px;
-    width: 50px ;
+    border-radius: 0px 8px 8px 0px;
+    border-left: none;
+    border: 1px solid var(--body-background-color);
     cursor: pointer;
-    height: 2rem;
+    height: 100% ;
+    padding: 14px 20px;
   }
   
-  .searchButton img {
-    height: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+ 

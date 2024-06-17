@@ -1,5 +1,5 @@
 import Button from "../Button/Button";
-import Logo from "../Logo/Logo";
+import Logo from "../../assets/logo.png";
 import Search from "../Search/Search";
 import styles from "./navbar.module.css"
 
@@ -8,9 +8,9 @@ import styles from "./navbar.module.css"
 export default function NavBar() {
     return(
         <nav className={styles.navbar}>
-            <Logo/>
+            <div className={styles.logoDiv}><img  src={Logo} alt="logo" width={67}/></div>
             <Search/>
-            <Button/>
+            <Button children="Give Feedback"/>
         </nav>
     )
     
