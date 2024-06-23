@@ -10,6 +10,7 @@ function App() {
 
   const generateTopAlbumData = async () => {
     const data = await fetchTopAlbums();
+    console.log(data);
     setTopAlbumData(data);
   };
 
