@@ -1,0 +1,27 @@
+.wrapper{
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herotitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 48px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.herotitle > h1 {
+    height: 48px;
+    font-size: 32px;
+    color: var(--text-background-color)
+}
+
+.heroimg{
+    height: 212px;
+    width: 212px;
+}

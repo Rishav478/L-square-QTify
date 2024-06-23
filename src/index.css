@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+:root {
+  --primary-background-color: #34C94B;
+  --body-background-color: #121212;
+  --text-background-color: #ffffff;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
