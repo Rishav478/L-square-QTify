@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroPart/Hero";
 import { fetchTopAlbums, fetchNewAlbums } from "./api/api";
 import { useState } from "react";
 import Section from "./components/Section/Section";
+import styles from "./App.module.css";
 
 function App() {
   const [topAlbumData, setTopAlbumData] = useState([]);
@@ -28,8 +29,10 @@ function App() {
     <>
       <NavBar />
       <HeroSection />
-      <Section title="Top Albums" data={topAlbumData} type="album" />
-      <Section title="New Albums" data={newAlbumData} type="album" />
+      <div className={styles.albumSectionWrapper}>
+        <Section title="Top Albums" data={topAlbumData} type="album" />
+        <Section title="New Albums" data={newAlbumData} type="album" />
+      </div>
     </>
   );
 }
