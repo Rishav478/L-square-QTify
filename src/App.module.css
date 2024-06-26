@@ -4,3 +4,15 @@
 	flex-direction: column;
 	gap: 2rem;
 }
+
+.tabs {
+	margin-left: 15px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	color: var(--text-background-color);
+}
+
+hr{
+	color: var(--primary-background-color) !important;
+	background-color: var(--primary-background-color) !important;
+}

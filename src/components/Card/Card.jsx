@@ -3,10 +3,7 @@ import styles from "./Card.module.css";
 import { Tooltip, Chip } from "@mui/material";
 
 const Card = ({ data, type }) => {
-	
-	if (!data || !data.image || !data.follows || !data.title || !data.songs) {
-		return null; 
-	}
+
 
 	const getCard = (type) => {
 		switch (type) {
@@ -32,8 +29,24 @@ const Card = ({ data, type }) => {
 						</div>
 					</Tooltip>
 				);
+				case "songs":
+				return (
+					<div className={styles.wrapper}>
+						<div className={styles.card}>
+							<img src={data.image} alt="song" loading="lazy" />
+							<div className={styles.banner}>
+								<div className={styles.pill}>
+									<p>{data.likes} Likes</p>
+								</div>
+							</div>
+						</div>
+						<div className={styles.titleWrapper}>
+							<p>{data.title}</p>
+						</div>
+					</div>
+				);
 			default:
-				return null;
+				return <></>;
 		}
 	};
 
